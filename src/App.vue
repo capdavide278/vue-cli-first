@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <newComponent/>
-    
+    <jumbo/>
   </div>
 </template>
 
@@ -11,14 +10,15 @@
 
 import HelloWorld from './components/HelloWorld.vue'
 import newComponent from './components/newComponent.vue'
-
+import jumbo from './components/jumbo.vue'
 
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    newComponent
+    newComponent,
+    jumbo
   
   }
 }
